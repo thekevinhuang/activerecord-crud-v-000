@@ -24,12 +24,12 @@ end
 
 def can_be_created_in_a_block
   Movie.create do |m|
-    __
+    m.
   end
 end
 
 def can_get_the_first_item_in_the_database
-  Movie.first
+  Movie.first.title
 end
 
 def can_get_the_last_item_in_the_database
